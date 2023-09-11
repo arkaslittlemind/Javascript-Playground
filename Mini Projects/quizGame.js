@@ -40,7 +40,9 @@ if(answer3.toUpperCase() === correctAnswer3) {
   console.log('You got it wrong!');
 }
 
+const percent = Math.round(correctAnswers / totalQuestions * 100);
+
 
 console.log('You got ' + correctAnswers + ' out of 3 questions correct!');
-console.log('Your score is ' + (correctAnswers / totalQuestions) * 100 + '%.');
+console.log('Your score is ', percent, '%.');
 
