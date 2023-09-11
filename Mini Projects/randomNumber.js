@@ -12,8 +12,10 @@ while (true) {
   const guess = Number(prompt("Guess a number between 1 and 100: "));
   if (guess > target) {
     console.log("Your guess is too high!");
+    guesses++;
   } else if (guess < target) {
     console.log("Your guess is too low!");
+    guesses++;
   } else {
     console.log(`You got it! You took ${guesses} guesses!`);
     break;
