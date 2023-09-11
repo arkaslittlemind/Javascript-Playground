@@ -5,7 +5,7 @@
 
 const interestRate = 0.3;
 // interestRate = 1;
-console.log(interestRate);
+// console.log(interestRate);
 
 // Primitive Types
 // let name = 'Arka'; // String Literal
@@ -21,4 +21,22 @@ let age = 22;
 let isApproved = true;
 let firstName = undefined;
 let lastName = null;
+
+// Reference Types
+
+// Object
+let person = {
+    name: 'Arka',
+    age: 22
+}
+
+// Dot Notation
+person.name = 'Shristi';
+console.log(person.name);
+
+// Bracket Notation
+person['name'] = 'Anik';
+console.log(person.name);
+
+
 
