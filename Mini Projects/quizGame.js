@@ -1,3 +1,5 @@
 const prompt = require('prompt-sync')({sigint: true});
 
-prompt('Enter something: ');
+const value = prompt('Enter something: ');
+console.log('You entered: ' + value);
+
