@@ -1,1 +1,8 @@
-console.log('Hello World!');
+//console.log('Hello World!');
+
+let name = 'Arka';
+console.log(name);
+
+const interestRate = 0.3;
+interestRate = 1;
+console.log(interestRate);
