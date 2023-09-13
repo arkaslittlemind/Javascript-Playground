@@ -4,3 +4,4 @@
 5. UNDEFINED means Variable has been declared but value is not ASSIGNED but NOT DEFINED means Variables is NOT DECLARED.
 6. When we assign Variable to a Function definition, we CAN NOT call this Variable as Function BEFORE declaration as it will behave as Variable with UNDEFINED value.
 7. Not defined and Undefined are NOT SAME. Not defined means Variable is NOT DECLARED and Undefined means Variable is DECLARED but value is NOT ASSIGNED.
+8. When functions are an ARROW function, they are NOT HOISTED. ARROW functions act like just any other variable.

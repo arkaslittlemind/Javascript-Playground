@@ -9,10 +9,12 @@ console.log(getName);
 // var x = 7;
 
 
-function getName() {
+//function getName() {
+//    console.log("Namaste JavaScript");
+//}
+
+var getName = () => {
     console.log("Namaste JavaScript");
 }
-
-
 
 
