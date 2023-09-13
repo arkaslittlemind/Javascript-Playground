@@ -17,4 +17,3 @@ var getName = () => {
     console.log("Namaste JavaScript");
 }
 
-
