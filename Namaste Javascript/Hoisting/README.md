@@ -1,6 +1,7 @@
 **2 Golden Rules:**  
 **- Variable declarations are scanned and are made undefined.**
- **- Function declarations are scanned and are made available.**
+
+**- Function declarations are scanned and are made available.**
 
  **Hoisting in JavaScript is a process in which all the Variables, Functions and Class definition are declared BEFORE execution of the code** 
 
