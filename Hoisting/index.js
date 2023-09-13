@@ -1,6 +1,7 @@
 
-getName(); // Namaste JavaScript
+//getName(); // Namaste JavaScript
 console.log(x); 
+console.log(getName); // [Function: getName]
 
 var x = 7;
 

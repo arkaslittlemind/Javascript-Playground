@@ -1,2 +1,5 @@
-Hoisting in JavaScript is a mechanism where variables and function declarations are moved to the top of their scope before code execution. 
-This means that if we do this: we can access the variable and functions before it is even declared. 
+1. Hoisting in JavaScript is a process in which all the Variables, Functions and Class definition are declared BEFORE execution of the code 
+3. Variables are initialized to UNDEFINED when they are declared and Function definition is stored AS IT IS.
+4. They are declared in Memory Allocation Phase in the Memory Component of Execution Context, so we can use them even BEFORE they are declared.
+5. UNDEFINED means Variable has been declared but value is not ASSIGNED but NOT DEFINED means Variables is NOT DECLARED.
+6. When we assign Variable to a Function definition, we CAN NOT call this Variable as Function BEFORE declaration as it will behave as Variable with UNDEFINED value.
