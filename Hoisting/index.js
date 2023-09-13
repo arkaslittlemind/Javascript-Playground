@@ -1,12 +1,18 @@
 
-//getName(); // Namaste JavaScript
+getName(); // Namaste JavaScript
 console.log(x); 
-console.log(getName); // [Function: getName]
+console.log(getName);
 
-var x = 7;
+
+
+
+// var x = 7;
+
 
 function getName() {
     console.log("Namaste JavaScript");
 }
+
+
 
 
