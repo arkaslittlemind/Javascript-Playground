@@ -9,9 +9,9 @@ console.log(getName);
 // var x = 7;
 
 
-//function getName() {
-//    console.log("Namaste JavaScript");
-//}
+function getName() {
+    console.log("Namaste JavaScript");
+}
 
 var getName = () => {
     console.log("Namaste JavaScript");
