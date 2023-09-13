@@ -1,3 +1,2 @@
 # Hoisting in JavaScript is a mechanism where variables and function declarations are moved to the top of their scope before code execution. 
 This means that if we do this: we can access the variable and functions before it is even declared. 
-```
