@@ -8,3 +8,4 @@ if (userScore >= highScore) {
     console.log(`Good Game. Your score of ${userScore} did not beat the high score of ${highScore}`);
 }
 
+ 
