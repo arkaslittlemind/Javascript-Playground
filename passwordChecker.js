@@ -14,10 +14,15 @@ else {
 
 // Truthy and Falsy Values
 
-let mystery = 5;
+let mystery = '';
 
 if(mystery) {
     console.log("Truthy");
 } else {
     console.log("Falsy");
 }
+
+// Every number except 0 is truthy
+// Every string except empty string is truthy
+
+// Falsy values: false, 0, "", null, undefined, NaN
