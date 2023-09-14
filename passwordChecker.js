@@ -10,3 +10,14 @@ if(password.length >= 6) {
 else {  
     console.log("Password must be longer!");
 }
+
+
+// Truthy and Falsy Values
+
+let mystery = 5;
+
+if(mystery) {
+    console.log("Truthy");
+} else {
+    console.log("Falsy");
+}
