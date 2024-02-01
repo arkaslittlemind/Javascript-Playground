@@ -1,4 +1,4 @@
-let day = 2;
+let day = 1;
 
 switch (day) {
     case 1:

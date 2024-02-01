@@ -31,11 +31,11 @@ let person = {
 }
 
 // Dot Notation
-person.name = 'Shristi';
+person.name = 'Shristi Pradhan';
 console.log(person.name);
 
 // Bracket Notation
-person['name'] = 'Anik';
+person['name'] = 'Anik Some';
 console.log(person.name);
 
 
