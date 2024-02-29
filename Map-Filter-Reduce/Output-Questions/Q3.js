@@ -9,3 +9,7 @@ let students = [
 ];
 
 
+const studentsFilter = students.filter((student) => student.marks > 60 && student.rollNumber > 15)
+
+console.log(studentsFilter);
+
