@@ -8,8 +8,8 @@ let students = [
     { name: 'Debarpan', age: 24, marks: 55 }
 ];
 
-const studentsReduce = students.filter((student) => 
+const studentsFilter = students.filter((student) => 
     student.marks > 60
 );
 
-console.log(studentsReduce)
+console.log(studentsFilter); // [ { name: 'Arka', age: 23, marks: 80 }, { name: 'Shristi', age: 23, marks: 69 }, { name: 'Anik', age: 24, marks: 90 } ]
