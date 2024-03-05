@@ -5,7 +5,7 @@ const dcHeroes = ["Batman", "Superman", "Flash"];
 
 // console.log(marvelHeroes);
 
-// const allHeroes = marvelHeroes.concat(dcHeroes); // concats two arrays and returns a new array
+// const allHeroes = marvelHeroes.concat(dcHeroes); // concatenates two arrays and returns a new array
 // console.log(allHeroes);
 
 // SPREAD OPERATOR //
