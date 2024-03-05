@@ -1,4 +1,4 @@
-// Singleton object
+// Object Creation
 
 // object literals
 
