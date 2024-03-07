@@ -1,4 +1,4 @@
-# The working of the JavaScript works in three phases
+# The working of the JavaScript works in three phases-
 
 1. Global Execution Context
 2. Memory phase / Creation phase
