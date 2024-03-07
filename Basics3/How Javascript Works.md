@@ -18,4 +18,4 @@ After the creation phase completed, the execution phase begins where actual valu
 2. Execution phase
 📝The return value of the 'Function Execution' context is passed to the Global Execution Context
 
-![Working of JS Code](U:\Javascript-Playground\Basics3\Working of JS Code.png)
+![Working of JS Code](https://github.com/arkaslittlemind/Javascript-Playground/assets/73486782/ade0613f-2947-49de-ae00-6ac8b3b0d547)
