@@ -25,6 +25,7 @@ async function startServer() {
             type Query {
                 getTodos: [Todo]
                 getAllUsers: [User]
+                getUser(id: ID!): User
             }    
     `,
     resolvers: {
@@ -33,6 +34,8 @@ async function startServer() {
                 (await axios.get("https://jsonplaceholder.typicode.com/todos")).data,
             getAllUsers: async() =>
                 (await axios.get("https://jsonplaceholder.typicode.com/users")).data,
+            getUser: async(parent, { id }) =>
+                (await axios.get(`https://jsonplaceholder.typicode.com/users/${id}`)).data
         }        
     },
   });
