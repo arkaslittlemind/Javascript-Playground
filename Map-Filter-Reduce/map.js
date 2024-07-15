@@ -7,7 +7,7 @@ const multiplyBy3 = nums.map((num, i, array) => {
     return num * 3;
 })
 
-console.log(multiplyBy3); // [3, 6, 9, 12, 15]
+// console.log(multiplyBy3); // [3, 6, 9, 12, 15]
 
 const nums1 = [1, 2, 3, 4, 5];
 
@@ -15,4 +15,13 @@ const multiplyBy3_1 = nums.map((num, i, array) => {
     return num * 3 + i;
 })
 
-console.log(multiplyBy3_1); // [3, 7, 11, 15, 19]
+// console.log(multiplyBy3_1); // [3, 7, 11, 15, 19]
+
+
+const input = [1, 2, 3, 4, 5, 6];
+
+const output = input.map(function(arr) {
+    return arr * 2;
+})
+
+console.log(output); // [2, 4, 6, 8, 10, 12]
